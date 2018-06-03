@@ -164,8 +164,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 511.65
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -187,13 +187,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 937366420}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 404, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1371779902
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,10 +293,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 540e142ec34de684181a78d8136418b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawMode: 1
   mapWidth: 100
   mapHeight: 100
-  noiseScale: 5
-  autoUpdate: 0
+  noiseScale: 51.14
+  octaves: 4
+  persistance: 0.5
+  lacunarity: 2
+  seed: -28
+  offset: {x: -14.39, y: 0}
+  autoUpdate: 1
+  regions:
+  - name: Water
+    height: 0.4
+    color: {r: 0.022058845, g: 0.31206897, b: 1, a: 0}
+  - name: Land
+    height: 1
+    color: {r: 0.10218425, g: 0.46323532, b: 0.19431446, a: 0}
 --- !u!4 &1585427009
 Transform:
   m_ObjectHideFlags: 0
