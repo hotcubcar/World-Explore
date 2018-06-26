@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a167ac4ee6d1d4cbbe22f45e925d29, type: 3}
+  m_Name: Default TextureSettings
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: a4332f0a0c640a046be6f8916b482475, type: 3}
+    tint: {r: 0.07586192, g: 0, b: 1, a: 0}
+    tintStrength: 0.25
+    startHeight: 0
+    blendStrength: 0.09
+    textureScale: 7.79
+  - texture: {fileID: 2800000, guid: a4332f0a0c640a046be6f8916b482475, type: 3}
+    tint: {r: 0.07450981, g: 0, b: 1, a: 0}
+    tintStrength: 0
+    startHeight: 0.04
+    blendStrength: 0.03
+    textureScale: 7.79
+  - texture: {fileID: 2800000, guid: 83ea6509ea0f322489a1d5fa2279ce32, type: 3}
+    tint: {r: 1, g: 0.9372549, b: 0.42745098, a: 0}
+    tintStrength: 0
+    startHeight: 0.068
+    blendStrength: 0.005
+    textureScale: 1.49
+  - texture: {fileID: 2800000, guid: 42d54a8306a3c724aac29689590015d3, type: 3}
+    tint: {r: 0.05490196, g: 0.5529412, b: 0.03529412, a: 0}
+    tintStrength: 0
+    startHeight: 0.108
+    blendStrength: 0.04
+    textureScale: 4.48
+  - texture: {fileID: 2800000, guid: a26c48be2619c864f92d6d210c528c5c, type: 3}
+    tint: {r: 0.5058824, g: 0.3647059, b: 0.25882354, a: 0}
+    tintStrength: 0
+    startHeight: 0.225
+    blendStrength: 0.107
+    textureScale: 11.43
+  - texture: {fileID: 2800000, guid: f91179b14cd62a745b784eda560d708a, type: 3}
+    tint: {r: 0.2509804, g: 0.20784314, b: 0.14509805, a: 0}
+    tintStrength: 0
+    startHeight: 0.431
+    blendStrength: 0.313
+    textureScale: 15
+  - texture: {fileID: 2800000, guid: bc90b571c7b6a9f4a9a191d3c5914e68, type: 3}
+    tint: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0}
+    tintStrength: 0
+    startHeight: 0.895
+    blendStrength: 0.15
+    textureScale: 4.64
